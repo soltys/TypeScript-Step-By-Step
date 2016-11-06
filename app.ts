@@ -1,15 +1,3 @@
-class Greeter {
-    
-    public static Greet(name: string): void {
-        console.log('Hello ' + name);
-    }
+import calc from './calc';
 
-    public static MakeError(): never {
-        throw new Error("This is an Error!")
-    }
-
-}
-
-Greeter.Greet('Pawel');
-
-var  g = new Greeter();
+console.log(calc.add(42, 8));

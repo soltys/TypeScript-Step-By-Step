@@ -9,9 +9,11 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/jquery": "^2.0.33"    
+    "@types/jquery": "^2.0.33"
   },
   "dependencies": {
-    "jquery": "^3.1.1"    
+    "jquery": "^3.1.1",
+    "ts-loader": "^1.0.0",
+    "typescript": "^2.0.7"
   }
 }
